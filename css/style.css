@@ -1,3 +1,133 @@
 /*importeren van fonts*/
 @import "fonts.css";
 
+body{
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'main main main main'
+    'footer footer footer footer';
+}
+
+/*Teksten*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Antwerpen Regular";
+    line-height: 1.1;
+    margin: 0;
+}
+  
+h1.has-base-font,
+h2.has-base-font,
+h3.has-base-font,
+h4.has-base-font,
+h5.has-base-font,
+h6.has-base-font,
+.h1.has-base-font,
+.h2.has-base-font,
+.h3.has-base-font,
+.h4.has-base-font,
+.h5.has-base-font,
+.h6.has-base-font {
+    font-family: "Sun Antwerpen";
+}
+  
+h1,
+.h1 {
+    font-size: 2.98598rem;
+    font-weight: 500;
+}
+  
+h2,
+.h2 {
+    font-size: 2.48832rem;
+    font-weight: 500;
+}
+  
+h3,
+.h3 {
+    font-size: 2.0736rem;
+    font-weight: 500;
+}
+ 
+h4,
+.h4 {
+    font-size: 1.728rem;
+    font-weight: 500;
+}
+  
+h5,
+.h5 {
+    font-size: 1.44rem;
+    font-weight: 500;
+}
+  
+h6,
+.h6 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+  
+/**
+* PARAGRAPHS
+* -------------------------------------------------------------------
+*/
+  
+p {
+    font-size: 1rem;
+    line-height: 1.3;
+    margin: 0;
+    font-family: "Sun Antwerpen";
+}
+
+li{
+    font-family: "Sun Antwerpen";
+    color: black;
+}
+
+footer p{
+    color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #081f2c;
+    
+}
+
+main{
+    margin-top: 85px;
+    grid-area: main;
+    padding: 0;
+    text-align: center; /* voor alles in het midden te*/
+  }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #282020;
+}
+
+/*Copyright*/
+p.law {
+    text-align: center;
+    display: flexbox;
+    margin-left: auto; /*left en right zorgen voor centreren*/
+    margin-right: auto;
+    vertical-align: bottom;
+}
