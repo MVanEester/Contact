@@ -1,0 +1,13 @@
+@font-face{
+    font-family: "Antwerpen";
+    font-size: normal;
+    font-weight: normal;
+    src: url("../fonts/Antwerpen_lettertype/Antwerpen\ Regular.otf");
+}
+
+@font-face{
+    font-family: "Sun_Antwerpen";
+    font-size: normal;
+    font-weight: normal;
+    src: url("../fonts/SunAntwerpen OTF/SunAntwerpen-5_Regular.otf");
+}
