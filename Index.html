@@ -24,32 +24,50 @@
         <p>heeft u problemen ondervonden met onze site, <br> 
             dan kan u hier ons op de hoogte te brengen over de problemen.</p> <br>
 
-        <form> 
-            <label for="fname">First name: </label>
-            <input type="text" id="fname" name="fname" placeholder="Voornaam"> <br>
+        <form class="a-form">
+            <div class="a-input">
+                <label class="a-input__label" for="text-field">First name: </label>
+                <input type="text" id="text-field" name="text-field" placeholder="Voornaam">
+            </div>
 
-            <label for="lname">Last name: </label>
-            <input type="text" id="lname" name="lname" placeholder="Achternaam"> <br>
+            <div class="a-input">
+                <label class="a-input__label" for="text-field">Last name: </label>
+                <input type="text" id="text-field" name="text-field" placeholder="Achternaam">
+            </div>
+                
 
-            <select name="gender" id="gender">
-                <option value="Man">Man</option>
-                <option value="Vrouw">Vrouw</option>
-                <option value="Other">Other</option>
-            </select> <br>
+            <div class="a-input">
+                <label class="a-input__label" for="text-field">Email address: </label>
+                <input type="text" id="text-field" name="text-field" placeholder="Email">
+            </div>
 
-            <label for="email">Email: </label>
-            <input type="text" id="email" name="email" placeholder="email adres"> <br> <br>
+            <div class="a-input">
+                <label class="a-input__label" for="input-select">Select your gender</label>
+                <div class="a-input__wrapper">
+                    <select name="input-select" id="input-select">
+                        <option disabled selected>Geslacht...</option>
+                        <option value="1">Man</option>
+                        <option value="2">Vrouw</option>
+                        <option value="3">Other...</option>
+                    </select>
+                    <span class="fa fa-angle-down"></span>
+            </div> <br>
+                
+            <div class="a-input">
+                <textarea name="input-textarea" id="input-textarea" placeholder="Problemen die u ondervonden heeft..."></textarea>
+            </div>
 
-            <textarea name="message" rows="10" cols="50">
-            </textarea> <br>
-
-            <button type="submit">Verzenden</button>
+            <button type="submit" class="a-button">Verzenden</button>
         </form>
+        <br>
+        <br>
+        <br>
     </main>
 
     <footer>
-        <footer id="footer">
-              <p class="law">&copy 2020 Antwerpen.be | <a href="https://www.antwerpen.be/nl/info/5310f241aaa8a74f6c8b458d/a-stad-uw-privacy-en-hoe-gebruiken">Privacy & gebruiksvoorwaarden</a></p>
+        <div id="footer">
+            <p class="law">&copy 2020 Antwerpen.be | <a href="https://www.antwerpen.be/nl/info/5310f241aaa8a74f6c8b458d/a-stad-uw-privacy-en-hoe-gebruiken">Privacy & gebruiksvoorwaarden</a></p>
+        </div>
     </footer>
 </body>
 </html>

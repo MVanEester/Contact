@@ -95,6 +95,19 @@ li{
     color: black;
 }
 
+#text-field {
+    width: 20%;
+}
+
+#input-select {
+    width: 20%;
+}
+
+#input-textarea {
+    width: 50%;
+    height: 20%;
+}
+
 footer p{
     color: white;
 }
@@ -113,10 +126,11 @@ main{
     text-align: center; /* voor alles in het midden te*/
   }
 
-footer {
+#footer {
     position: fixed;
     bottom: 0;
-    height: 50px;
+    left: 0;
+    height: auto;
     width: 100%;
     text-align: center;
     color: white;
@@ -131,3 +145,4 @@ p.law {
     margin-right: auto;
     vertical-align: bottom;
 }
+
