@@ -130,7 +130,7 @@ main{
     position: fixed;
     bottom: 0;
     left: 0;
-    height: auto;
+    height: 50px;
     width: 100%;
     text-align: center;
     color: white;
